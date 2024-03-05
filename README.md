@@ -3,7 +3,7 @@
 
 To run, compile the 3 files:
 
-gcc client.c -o client & gcc client_2.c -o client_2 & gcc gateway.c -o gateway & gcc matchingEngine.c -o matchingEngine
+`gcc client.c -o client & gcc client_2.c -o client_2 & gcc gateway.c -o gateway & gcc matchingEngine.c -o matchingEngine`
 
 After that, just execute in order:
 gateway -> client (order independent) -> matchingEngine
